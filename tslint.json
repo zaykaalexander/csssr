@@ -1,0 +1,41 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "ordered-imports": false,
+    "no-unused-variable": [true, {}],
+    "no-unused-expression": true,
+    "import-name": false,
+    "member-ordering": false,
+    "object-literal-sort-keys": false,
+    "jsx-alignment": true,
+    "jsx-boolean-value": [true, "never"],
+    "ter-arrow-parens": false,
+    "jsx-curly-spacing": false,
+    "jsx-equals-spacing": [true, "never"],
+    "jsx-key": true,
+    "jsx-no-lambda": false,
+    "jsx-no-bind": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true,
+    "jsx-space-before-trailing-slash": true,
+    "jsx-wrap-multiline": false,
+    "variable-name": [true, "allow-pascal-case"],
+    "object-shorthand-properties-first": false,
+    "interface-over-type-literal": false,
+    "prefer-array-literal": false,
+    "no-shadowed-variable": false
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": ["./types/*"]
+  }
+}
